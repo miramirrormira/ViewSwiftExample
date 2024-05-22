@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BB02E2272BF65BDF00CE3AF7 /* ViewSwiftly in Frameworks */ = {isa = PBXBuildFile; productRef = BB02E2262BF65BDF00CE3AF7 /* ViewSwiftly */; };
 		BB02E2292BF65E8900CE3AF7 /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB02E2282BF65E8900CE3AF7 /* Movies.swift */; };
 		BB16F0D12BEBE25800808C27 /* ViewSwiftlyExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB16F0D02BEBE25800808C27 /* ViewSwiftlyExampleApp.swift */; };
 		BB16F0D32BEBE25800808C27 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB16F0D22BEBE25800808C27 /* ContentView.swift */; };
 		BB16F0D52BEBE25900808C27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB16F0D42BEBE25900808C27 /* Assets.xcassets */; };
 		BB16F0D82BEBE25900808C27 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB16F0D72BEBE25900808C27 /* Preview Assets.xcassets */; };
-		BB16F0E02BEBE28B00808C27 /* ViewSwiftly in Frameworks */ = {isa = PBXBuildFile; productRef = BB16F0DF2BEBE28B00808C27 /* ViewSwiftly */; };
 		BB8EC7702BFD70CD008A8562 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8EC76F2BFD70CD008A8562 /* Networking.swift */; };
+		BB8EC7732BFD859A008A8562 /* ViewSwiftly in Frameworks */ = {isa = PBXBuildFile; productRef = BB8EC7722BFD859A008A8562 /* ViewSwiftly */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,8 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB02E2272BF65BDF00CE3AF7 /* ViewSwiftly in Frameworks */,
-				BB16F0E02BEBE28B00808C27 /* ViewSwiftly in Frameworks */,
+				BB8EC7732BFD859A008A8562 /* ViewSwiftly in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,8 +92,7 @@
 			);
 			name = ViewSwiftlyExample;
 			packageProductDependencies = (
-				BB16F0DF2BEBE28B00808C27 /* ViewSwiftly */,
-				BB02E2262BF65BDF00CE3AF7 /* ViewSwiftly */,
+				BB8EC7722BFD859A008A8562 /* ViewSwiftly */,
 			);
 			productName = ViewSwiftlyExample;
 			productReference = BB16F0CD2BEBE25800808C27 /* ViewSwiftlyExample.app */;
@@ -126,8 +123,7 @@
 			);
 			mainGroup = BB16F0C42BEBE25800808C27;
 			packageReferences = (
-				BB16F0DE2BEBE28B00808C27 /* XCRemoteSwiftPackageReference "NetSwiftly" */,
-				BB02E2252BF65BDF00CE3AF7 /* XCRemoteSwiftPackageReference "ViewSwiftly" */,
+				BB8EC7712BFD859A008A8562 /* XCRemoteSwiftPackageReference "ViewSwiftly" */,
 			);
 			productRefGroup = BB16F0CE2BEBE25800808C27 /* Products */;
 			projectDirPath = "";
@@ -366,17 +362,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		BB02E2252BF65BDF00CE3AF7 /* XCRemoteSwiftPackageReference "ViewSwiftly" */ = {
+		BB8EC7712BFD859A008A8562 /* XCRemoteSwiftPackageReference "ViewSwiftly" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/miramirrormira/ViewSwiftly.git";
-			requirement = {
-				branch = main;
-				kind = branch;
-			};
-		};
-		BB16F0DE2BEBE28B00808C27 /* XCRemoteSwiftPackageReference "NetSwiftly" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/miramirrormira/NetSwiftly.git";
 			requirement = {
 				branch = main;
 				kind = branch;
@@ -385,14 +373,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		BB02E2262BF65BDF00CE3AF7 /* ViewSwiftly */ = {
+		BB8EC7722BFD859A008A8562 /* ViewSwiftly */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = BB02E2252BF65BDF00CE3AF7 /* XCRemoteSwiftPackageReference "ViewSwiftly" */;
-			productName = ViewSwiftly;
-		};
-		BB16F0DF2BEBE28B00808C27 /* ViewSwiftly */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = BB16F0DE2BEBE28B00808C27 /* XCRemoteSwiftPackageReference "NetSwiftly" */;
+			package = BB8EC7712BFD859A008A8562 /* XCRemoteSwiftPackageReference "ViewSwiftly" */;
 			productName = ViewSwiftly;
 		};
 /* End XCSwiftPackageProductDependency section */
