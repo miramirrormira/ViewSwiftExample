@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB02E2272BF65BDF00CE3AF7 /* ViewSwiftly in Frameworks */ = {isa = PBXBuildFile; productRef = BB02E2262BF65BDF00CE3AF7 /* ViewSwiftly */; };
+		BB02E2292BF65E8900CE3AF7 /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB02E2282BF65E8900CE3AF7 /* Movies.swift */; };
 		BB16F0D12BEBE25800808C27 /* ViewSwiftlyExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB16F0D02BEBE25800808C27 /* ViewSwiftlyExampleApp.swift */; };
 		BB16F0D32BEBE25800808C27 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB16F0D22BEBE25800808C27 /* ContentView.swift */; };
 		BB16F0D52BEBE25900808C27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB16F0D42BEBE25900808C27 /* Assets.xcassets */; };
 		BB16F0D82BEBE25900808C27 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB16F0D72BEBE25900808C27 /* Preview Assets.xcassets */; };
+		BB16F0E02BEBE28B00808C27 /* ViewSwiftly in Frameworks */ = {isa = PBXBuildFile; productRef = BB16F0DF2BEBE28B00808C27 /* ViewSwiftly */; };
+		BB8EC7702BFD70CD008A8562 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8EC76F2BFD70CD008A8562 /* Networking.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BB02E2282BF65E8900CE3AF7 /* Movies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movies.swift; sourceTree = "<group>"; };
 		BB16F0CD2BEBE25800808C27 /* ViewSwiftlyExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewSwiftlyExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB16F0D02BEBE25800808C27 /* ViewSwiftlyExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewSwiftlyExampleApp.swift; sourceTree = "<group>"; };
 		BB16F0D22BEBE25800808C27 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BB16F0D42BEBE25900808C27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB16F0D72BEBE25900808C27 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BB8EC76F2BFD70CD008A8562 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +32,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB02E2272BF65BDF00CE3AF7 /* ViewSwiftly in Frameworks */,
+				BB16F0E02BEBE28B00808C27 /* ViewSwiftly in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,7 +60,9 @@
 			isa = PBXGroup;
 			children = (
 				BB16F0D02BEBE25800808C27 /* ViewSwiftlyExampleApp.swift */,
+				BB8EC76F2BFD70CD008A8562 /* Networking.swift */,
 				BB16F0D22BEBE25800808C27 /* ContentView.swift */,
+				BB02E2282BF65E8900CE3AF7 /* Movies.swift */,
 				BB16F0D42BEBE25900808C27 /* Assets.xcassets */,
 				BB16F0D62BEBE25900808C27 /* Preview Content */,
 			);
@@ -83,6 +93,10 @@
 			dependencies = (
 			);
 			name = ViewSwiftlyExample;
+			packageProductDependencies = (
+				BB16F0DF2BEBE28B00808C27 /* ViewSwiftly */,
+				BB02E2262BF65BDF00CE3AF7 /* ViewSwiftly */,
+			);
 			productName = ViewSwiftlyExample;
 			productReference = BB16F0CD2BEBE25800808C27 /* ViewSwiftlyExample.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +125,10 @@
 				Base,
 			);
 			mainGroup = BB16F0C42BEBE25800808C27;
+			packageReferences = (
+				BB16F0DE2BEBE28B00808C27 /* XCRemoteSwiftPackageReference "NetSwiftly" */,
+				BB02E2252BF65BDF00CE3AF7 /* XCRemoteSwiftPackageReference "ViewSwiftly" */,
+			);
 			productRefGroup = BB16F0CE2BEBE25800808C27 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -139,6 +157,8 @@
 			files = (
 				BB16F0D32BEBE25800808C27 /* ContentView.swift in Sources */,
 				BB16F0D12BEBE25800808C27 /* ViewSwiftlyExampleApp.swift in Sources */,
+				BB02E2292BF65E8900CE3AF7 /* Movies.swift in Sources */,
+				BB8EC7702BFD70CD008A8562 /* Networking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +364,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BB02E2252BF65BDF00CE3AF7 /* XCRemoteSwiftPackageReference "ViewSwiftly" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/miramirrormira/ViewSwiftly.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		BB16F0DE2BEBE28B00808C27 /* XCRemoteSwiftPackageReference "NetSwiftly" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/miramirrormira/NetSwiftly.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BB02E2262BF65BDF00CE3AF7 /* ViewSwiftly */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BB02E2252BF65BDF00CE3AF7 /* XCRemoteSwiftPackageReference "ViewSwiftly" */;
+			productName = ViewSwiftly;
+		};
+		BB16F0DF2BEBE28B00808C27 /* ViewSwiftly */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BB16F0DE2BEBE28B00808C27 /* XCRemoteSwiftPackageReference "NetSwiftly" */;
+			productName = ViewSwiftly;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BB16F0C52BEBE25800808C27 /* Project object */;
 }
