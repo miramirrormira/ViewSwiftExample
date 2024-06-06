@@ -15,7 +15,7 @@ struct Movies: View {
     @StateObject private var vm: AnyViewModel<PaginatedItemsState<Movie>, PaginatedItemsActions<Movie>>
     
     init() {
-        self._vm = StateObject(wrappedValue: AnyViewModel(popularMoviesViewModel))
+        self._vm = StateObject(wrappedValue: AnyViewModel(popularMoviesViewModelWithOldPageRemoved))
     }
     
     var body: some View {

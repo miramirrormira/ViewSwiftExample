@@ -18,4 +18,6 @@ let transformMoviePage: (MoviePage) -> [Movie] = { moviePage in
     }
 }
 
-let popularMoviesViewModel: PaginatedItemsViewModel<Movie, MoviePage> = .init(networkConfiguration: networkingConfig, endpoint: popularMoviesEndpoint, paginationQueryStrategy: PageBasedQueryStrategy(pageKey: "page"), transform: transformMoviePage)
+let popularMoviesViewModel: PaginatedItemsViewModel<Movie> = .init(networkConfiguration: networkingConfig, endpoint: popularMoviesEndpoint, paginationQueryStrategy: PageBasedQueryStrategy(pageKey: "page"), transform: transformMoviePage)
+
+let popularMoviesViewModelWithOldPageRemoved: PaginatedItemsViewModel<Movie> = .init(networkConfiguration: networkingConfig, endpoint: popularMoviesEndpoint, paginationQueryStrategy: PageBasedQueryStrategy(pageKey: "page"), mergeItemsStrategy: AddMoviesAndRemoveOldOnes(), transform: transformMoviePage)

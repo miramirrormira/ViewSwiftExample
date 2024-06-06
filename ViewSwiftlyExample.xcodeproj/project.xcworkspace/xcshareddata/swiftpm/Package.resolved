@@ -7,7 +7,7 @@
       "location" : "https://github.com/miramirrormira/NetSwiftly.git",
       "state" : {
         "branch" : "main",
-        "revision" : "cd5d76c83e029b5c8090bf6c5354ce02c8b0d834"
+        "revision" : "9f3a704d16f671a07ae26c71fc25cbf980519dab"
       }
     },
     {
@@ -16,7 +16,7 @@
       "location" : "https://github.com/miramirrormira/ViewSwiftly.git",
       "state" : {
         "branch" : "main",
-        "revision" : "b3294893ddac83fe83f815ad82af9cb8bd08d5be"
+        "revision" : "1982362d427b772938944b0f6fa9e180377aa458"
       }
     }
   ],
