@@ -11,7 +11,7 @@ import ViewSwiftly
 struct ContentView: View {
     
     var body: some View {
-        Movies()
+        MovieList()
     }
 }
 

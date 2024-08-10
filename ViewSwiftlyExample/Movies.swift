@@ -10,33 +10,10 @@ import SwiftUI
 import ViewSwiftly
 import NetSwiftly
 
-struct Movies: View {
-    
-    @StateObject private var vm: AnyViewModel<PaginatedItemsState<Movie>, PaginatedItemsActions<Movie>>
-    
-    init() {
-        self._vm = StateObject(wrappedValue: AnyViewModel(popularMoviesViewModelWithOldPageRemoved))
+struct MoviePage: Decodable, Identifiable {
+    var id: Int {
+        page
     }
-    
-    var body: some View {
-        PaginatedList(viewModel: vm) { movie in
-            HStack {
-                Text(movie.title)
-                Spacer()
-                Text("\(movie.page ?? -1)")
-            }
-        } loadingView: {
-            EmptyView()
-        } emptyListView: {
-            EmptyView()
-        }
-        .task {
-            await vm.trigger(.requestNextPage)
-        }
-    }
-}
-
-struct MoviePage: Decodable {
     var page: Int
     var results: [Movie]
 }
@@ -48,3 +25,5 @@ struct Movie: Decodable, Hashable, Identifiable {
         return title + "\(String(describing: page))"
     }
 }
+
+

@@ -2,12 +2,21 @@
   "originHash" : "80eb744f6ef6838d886d9063137cfe033b89fdab4faaac2e33835990a5af14cf",
   "pins" : [
     {
+      "identity" : "cacheswiftly",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/miramirrormira/CacheSwiftly",
+      "state" : {
+        "branch" : "main",
+        "revision" : "bb9ead61dcc93ab5efe64278dfb951641b50a35b"
+      }
+    },
+    {
       "identity" : "netswiftly",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/miramirrormira/NetSwiftly.git",
       "state" : {
         "branch" : "main",
-        "revision" : "9f3a704d16f671a07ae26c71fc25cbf980519dab"
+        "revision" : "fda1a981dfaf3cee9203dcb1bfcbd503980ae145"
       }
     },
     {
@@ -16,7 +25,7 @@
       "location" : "https://github.com/miramirrormira/ViewSwiftly.git",
       "state" : {
         "branch" : "main",
-        "revision" : "1982362d427b772938944b0f6fa9e180377aa458"
+        "revision" : "40ff87026ddb718eb7129cf46db3fdf49f9ad038"
       }
     }
   ],

@@ -10,8 +10,11 @@ import ViewSwiftly
 
 class AddMoviesAndRemoveOldOnes: MergeItemsStrategy {
     
+    typealias ItemType = Movie
+    typealias ItemStateType = Movie
+    
     @MainActor
-    func merge<Movie>(vm: ViewSwiftly.PaginatedItemsViewModel<Movie>, with newItems: [Movie]) async {
+    func merge(vm: ViewSwiftly.PaginatedItemsViewModel<Movie, Movie>, with newItems: [Movie]) async {
         vm.state.items.append(contentsOf: newItems)
         if vm.state.items.count > 50 {
             print("💜 removing the first 10 movies")
