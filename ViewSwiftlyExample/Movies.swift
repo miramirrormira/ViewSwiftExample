@@ -21,6 +21,7 @@ struct MoviePage: Decodable, Identifiable {
 struct Movie: Decodable, Hashable, Identifiable {
     var title: String
     var page: Int?
+    var poster_path: String?
     var id: String {
         return title + "\(String(describing: page))"
     }

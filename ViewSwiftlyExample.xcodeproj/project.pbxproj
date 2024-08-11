@@ -18,6 +18,17 @@
 		BBA0898C2C67D5F4004881A7 /* MovieDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA0898B2C67D5F4004881A7 /* MovieDetailView.swift */; };
 		BBA0898E2C67D61D004881A7 /* MovieList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA0898D2C67D61D004881A7 /* MovieList.swift */; };
 		BBA089902C67D65A004881A7 /* MovieRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA0898F2C67D65A004881A7 /* MovieRow.swift */; };
+		BBA089922C680596004881A7 /* FetchMoviePostersStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA089912C680596004881A7 /* FetchMoviePostersStrategy.swift */; };
+		BBA089942C680B95004881A7 /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA089932C680B95004881A7 /* Cache.swift */; };
+		BBA089962C681559004881A7 /* AsyncSemaphore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA089952C681559004881A7 /* AsyncSemaphore.swift */; };
+		BBA089A02C682426004881A7 /* FirestoreSendFileCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA089982C682426004881A7 /* FirestoreSendFileCommand.swift */; };
+		BBA089A12C682426004881A7 /* UpdateFireabseQueryRefreshStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA089992C682426004881A7 /* UpdateFireabseQueryRefreshStrategy.swift */; };
+		BBA089A22C682426004881A7 /* FirebaseDocumentCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA0899A2C682426004881A7 /* FirebaseDocumentCommand.swift */; };
+		BBA089A32C682426004881A7 /* FirestoreGetFileCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA0899B2C682426004881A7 /* FirestoreGetFileCommand.swift */; };
+		BBA089A42C682426004881A7 /* FirebaseSetDocumentCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA0899C2C682426004881A7 /* FirebaseSetDocumentCommand.swift */; };
+		BBA089A52C682426004881A7 /* FirebaseErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA0899D2C682426004881A7 /* FirebaseErrors.swift */; };
+		BBA089A62C682426004881A7 /* FirebaseQueryCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA0899E2C682426004881A7 /* FirebaseQueryCommand.swift */; };
+		BBA089A72C682426004881A7 /* FirebasePaginatedQueryCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA0899F2C682426004881A7 /* FirebasePaginatedQueryCommand.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +43,17 @@
 		BBA0898B2C67D5F4004881A7 /* MovieDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailView.swift; sourceTree = "<group>"; };
 		BBA0898D2C67D61D004881A7 /* MovieList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieList.swift; sourceTree = "<group>"; };
 		BBA0898F2C67D65A004881A7 /* MovieRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRow.swift; sourceTree = "<group>"; };
+		BBA089912C680596004881A7 /* FetchMoviePostersStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchMoviePostersStrategy.swift; sourceTree = "<group>"; };
+		BBA089932C680B95004881A7 /* Cache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
+		BBA089952C681559004881A7 /* AsyncSemaphore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncSemaphore.swift; sourceTree = "<group>"; };
+		BBA089982C682426004881A7 /* FirestoreSendFileCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirestoreSendFileCommand.swift; sourceTree = "<group>"; };
+		BBA089992C682426004881A7 /* UpdateFireabseQueryRefreshStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateFireabseQueryRefreshStrategy.swift; sourceTree = "<group>"; };
+		BBA0899A2C682426004881A7 /* FirebaseDocumentCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseDocumentCommand.swift; sourceTree = "<group>"; };
+		BBA0899B2C682426004881A7 /* FirestoreGetFileCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirestoreGetFileCommand.swift; sourceTree = "<group>"; };
+		BBA0899C2C682426004881A7 /* FirebaseSetDocumentCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseSetDocumentCommand.swift; sourceTree = "<group>"; };
+		BBA0899D2C682426004881A7 /* FirebaseErrors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseErrors.swift; sourceTree = "<group>"; };
+		BBA0899E2C682426004881A7 /* FirebaseQueryCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseQueryCommand.swift; sourceTree = "<group>"; };
+		BBA0899F2C682426004881A7 /* FirebasePaginatedQueryCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebasePaginatedQueryCommand.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +95,10 @@
 				BBA0898F2C67D65A004881A7 /* MovieRow.swift */,
 				BBA0898D2C67D61D004881A7 /* MovieList.swift */,
 				BBA0898B2C67D5F4004881A7 /* MovieDetailView.swift */,
+				BBA089912C680596004881A7 /* FetchMoviePostersStrategy.swift */,
+				BBA089952C681559004881A7 /* AsyncSemaphore.swift */,
+				BBA089932C680B95004881A7 /* Cache.swift */,
+				BBA089972C682398004881A7 /* Firebase */,
 				BB16F0D42BEBE25900808C27 /* Assets.xcassets */,
 				BB16F0D62BEBE25900808C27 /* Preview Content */,
 			);
@@ -85,6 +111,21 @@
 				BB16F0D72BEBE25900808C27 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BBA089972C682398004881A7 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				BBA0899A2C682426004881A7 /* FirebaseDocumentCommand.swift */,
+				BBA0899D2C682426004881A7 /* FirebaseErrors.swift */,
+				BBA0899F2C682426004881A7 /* FirebasePaginatedQueryCommand.swift */,
+				BBA0899E2C682426004881A7 /* FirebaseQueryCommand.swift */,
+				BBA0899C2C682426004881A7 /* FirebaseSetDocumentCommand.swift */,
+				BBA0899B2C682426004881A7 /* FirestoreGetFileCommand.swift */,
+				BBA089982C682426004881A7 /* FirestoreSendFileCommand.swift */,
+				BBA089992C682426004881A7 /* UpdateFireabseQueryRefreshStrategy.swift */,
+			);
+			path = Firebase;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,14 +204,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBA089962C681559004881A7 /* AsyncSemaphore.swift in Sources */,
 				BBA0898C2C67D5F4004881A7 /* MovieDetailView.swift in Sources */,
 				BBA089902C67D65A004881A7 /* MovieRow.swift in Sources */,
 				BB16F0D32BEBE25800808C27 /* ContentView.swift in Sources */,
+				BBA089922C680596004881A7 /* FetchMoviePostersStrategy.swift in Sources */,
+				BBA089A02C682426004881A7 /* FirestoreSendFileCommand.swift in Sources */,
+				BBA089A52C682426004881A7 /* FirebaseErrors.swift in Sources */,
 				BB16F0D12BEBE25800808C27 /* ViewSwiftlyExampleApp.swift in Sources */,
 				BB02E2292BF65E8900CE3AF7 /* Movies.swift in Sources */,
+				BBA089942C680B95004881A7 /* Cache.swift in Sources */,
+				BBA089A72C682426004881A7 /* FirebasePaginatedQueryCommand.swift in Sources */,
 				BB8EC7702BFD70CD008A8562 /* Networking.swift in Sources */,
+				BBA089A62C682426004881A7 /* FirebaseQueryCommand.swift in Sources */,
+				BBA089A12C682426004881A7 /* UpdateFireabseQueryRefreshStrategy.swift in Sources */,
+				BBA089A32C682426004881A7 /* FirestoreGetFileCommand.swift in Sources */,
+				BBA089A42C682426004881A7 /* FirebaseSetDocumentCommand.swift in Sources */,
 				BB8138F02BFE74F800621A11 /* AddMoviesAndRemoveOldOnes.swift in Sources */,
 				BBA0898E2C67D61D004881A7 /* MovieList.swift in Sources */,
+				BBA089A22C682426004881A7 /* FirebaseDocumentCommand.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +358,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ViewSwiftlyExample/Preview Content\"";
 				DEVELOPMENT_TEAM = 5H83TMV82H;
 				ENABLE_PREVIEWS = YES;
+				EXCLUDED_SOURCE_FILE_NAMES = "ViewSwiftlyExample/Firebase/*";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -335,6 +388,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ViewSwiftlyExample/Preview Content\"";
 				DEVELOPMENT_TEAM = 5H83TMV82H;
 				ENABLE_PREVIEWS = YES;
+				EXCLUDED_SOURCE_FILE_NAMES = "ViewSwiftlyExample/Firebase/*";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
